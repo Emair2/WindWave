@@ -7,7 +7,7 @@ import "@openzeppelin/contracts@4.8.0/access/Ownable.sol";
 import "@openzeppelin/contracts@4.8.0/utils/Counters.sol";
 import "@openzeppelin/contracts@4.8.0/utils/Strings.sol";
 
-contract Chicken is ERC721, ERC721URIStorage, Ownable {
+contract WindWave is ERC721, ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
 
     Counters.Counter private _tokenIdCounter;
@@ -15,7 +15,7 @@ contract Chicken is ERC721, ERC721URIStorage, Ownable {
     constructor() ERC721("WindWave", "Wind") {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://emair2.github.io/WindWaveTicket/TicketDate/";
+        return "https://emair2.github.io/WindWave/WindWaveTicket/TicketDate/";
     }
 
     function safeMint(address to) public onlyOwner {
