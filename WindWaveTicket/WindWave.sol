@@ -15,7 +15,7 @@ contract Chicken is ERC721, ERC721URIStorage, Ownable {
     constructor() ERC721("WindWave", "Wind") {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://emair2.github.io/nft-assets/ChickenSoupDate/";
+        return "https://emair2.github.io/WindWaveTicket/TicketDate/";
     }
 
     function safeMint(address to) public onlyOwner {
