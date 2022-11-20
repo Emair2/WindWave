@@ -6,15 +6,15 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-contract PARTYMODE is ERC721, ERC721URIStorage, Ownable {
+contract WINDWAVE is ERC721, ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
 
     Counters.Counter private _tokenIdCounter;
 
-    constructor() ERC721("PARTYMODE", "PARTY") {}
+    constructor() ERC721("WINDWAVE", "Wind") {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://dougrosman-edu.github.io/blockchain-fa22/nft-media/partymode/metadata/party.json";
+        return "https://emair2.github.io/WindWave/Wind/Data/1.json";
     }
 
     function safeMint(address to) public onlyOwner {
