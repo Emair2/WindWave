@@ -1,5 +1,13 @@
 {
     "name":"WindWave Ticket",
-    "description": "Buy a chicken soup to provide you with nutrition and fill you with energy.",
-    "image": "https://emair2.github.io/nft-assets/ChickenSoup/1.png"
+    "description": "Wind Wave 🌊
+    The great majority of large breakers seen at a beach result from distant winds.
+
+    Five factors influence the formation of the flow structures in wind waves:
+    1. Wind speed or strength relative to wave speed;
+    2. The wind blows without significant change in direction;
+    3. Width of the area affected by fetch;
+    4. The time for which the wind has blown over the water;
+    5. Water depth.",
+    "image": "https://github.com/Emair2/WindWave/blob/main/WindWaveTicket/Ticket/1.png"
 }
