@@ -39,16 +39,17 @@ p {
 
 #WindWaveMainPage {
   display: none;
-  text-shadow: 2px 2px red,
-               4px 4px orange,
-               6px 6px yellow,
-               8px 8px limegreen,
-               10px 10px blue;
+  text-shadow: 2px 2px rgb(0, 81, 255),
+               4px 4px rgb(66, 84, 251),
+               6px 6px rgb(237, 248, 255),
+               8px 8px rgb(22, 5, 216),
+               10px 10px rgb(0, 157, 255);
                font-family: 'VT323', monospace;
   color: white;
   text-align: center;
   font-size: 2rem;
 }
+
 
 #WindWaveMainPage hr {
   /* height: 20px; */
@@ -78,10 +79,10 @@ audio {
   text-align: center;
   
   
-  text-shadow: 2px 2px red,
-               4px 4px orange,
-               6px 6px yellow,
-               8px 8px limegreen,
+  text-shadow: 2px 2px rgb(0, 123, 255),
+               4px 4px rgb(135, 217, 245),
+               6px 6px rgb(255, 255, 254),
+               8px 8px rgb(2, 95, 225),
                10px 10px blue;
 }
 
@@ -101,16 +102,6 @@ audio {
   filter: hue-rotate(0deg);
   animation: colorchange 15s infinite linear;
 }
-
-.party-img {
-  position: absolute;
-  right: 1rem;
-  top: 1rem;
-  display: block;
-  max-width: 150px;
-  animation: spin-image 1s infinite alternate linear;
-}
-
 
 @keyframes colorchange {
   to {
@@ -132,4 +123,12 @@ audio {
   100% { transform: translateY(-25%) rotateY(0); } */
 
   to {transform: rotateY(90deg);}
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
 }
