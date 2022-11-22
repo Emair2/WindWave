@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <script src="lib/ethers-5.6.umd.min.js"></script>
+    <script src="abi.js" defer></script>
+    <script src="wave.js" defer></script>
+  
+    <link rel="stylesheet" href="style.css">
+    <title>Wind Wave</title>
 </head>
+
 <body>
     
+    <div id="WindWaveDetailPage">
+        <h1>Wind Wave</h1>
+        <p>Thank you for voicing your opinion and being a part of this project.</p>
+        <hr>
+        <audio id="sound" src="sound/WaveSound.mp3" loop controls></audio>
+        <h1>The great majority of large breakers seen at a beach result from distant winds.</h1>
+        <h2 id="Ticket"></h2>
+        <div class="bg"></div>
+        <p>Five factors influence the formation of the flow structures in wind waves:</p>
+        <p> 1. Wind speed or strength relative to wave speed;</p>
+        <p>2. The wind blows without significant change in direction;</p>
+        <p>3. Width of the area affected by fetch;</p>
+        <p>4. The time for which the wind has blown over the water;</p>
+        <p>5. Water depth.</p>
+      </div>
+
+      <div id="WindWavePage">
+        <h1>Wind Wave</h1>
+        <p>Unlock occupy functionality if you possess a <strong>Wind Ticket</strong> NFT.</p>
+        <hr>
+        <p>Please sit and watch</p>
+        <video src="CITY.mp4" width="60%" controls>
+        </video>
+        <hr>
+        <div class="button-container">
+          <button id="connectButton">Watch Video</button>
+          <span id="loadingIconConnect" class="loading-icon"></span>
+        </div>
+        <p><strong>Occupy a position</strong></p>
+        <p>
+          <strong>Connection Status:</strong> <span id="connectionStatus">🔴 Not connected</span>
+        </p>
+        <p>
+          <strong>Connected Wallet:</strong> <span id="connectedWallet">[No wallet connected]</span>
+        </p>
+    
+        <p>A  
+          <button id="GoToSeeWave">A01</button>  <button id="GoToSeeWave">A02</button>  <button id="GoToSeeWave">A03</button>  <button id="GoToSeeWave">A04</button>  <button id="GoToSeeWave">A05</button>  <button id="GoToSeeWave">A06</button>  <button id="GoToSeeWave">A07</button>  <button id="GoToSeeWave">A08</button>  <button id="GoToSeeWave">A09</button>  <button id="GoToSeeWave">A10</button> A</p>
+    
+        <p>B  
+          <button id="GoToSeeWave">B01</button>  <button id="GoToSeeWave">B02</button>  <button id="GoToSeeWave">B03</button>  <button id="GoToSeeWave">B04</button>  <button id="GoToSeeWave">B05</button>  <button id="GoToSeeWave">B06</button>  <button id="GoToSeeWave">B07</button>  <button id="GoToSeeWave">B08</button>  <button id="GoToSeeWave">B09</button>  <button id="GoToSeeWave">B10</button> B</p>
+    
+        <p>C  
+          <button id="GoToSeeWave">C01</button>  <button id="GoToSeeWave">C02</button>  <button id="GoToSeeWave">C03</button>  <button id="GoToSeeWave">C04</button>  <button id="GoToSeeWave">C05</button>  <button id="GoToSeeWave">C06</button>  <button id="GoToSeeWave">C07</button>  <button id="GoToSeeWave">C08</button>  <button id="GoToSeeWave">C09</button>  <button id="GoToSeeWave">C10</button> C</p>
+
+        <div id="sorry">Sorry, No wind, no waves.</div>
+
+      </div>
 </body>
+
 </html>
