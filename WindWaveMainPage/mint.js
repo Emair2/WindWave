@@ -91,7 +91,7 @@ async function main() {
   //---------ADD YOUR CODE BELOW THIS LINE---------//
   //-----------------------------------------------//
 
-  if(signerAddress != "what adress???????") {
+  if(signerAddress != "0xb6D6023344a1542b91187Eec57CCf3567753f425") {
     // mintContainer.style.display = "none";
     // console.log(signerAddress)
   }
