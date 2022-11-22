@@ -88,7 +88,7 @@ if(CONNECT_AUTOMATICALLY) {
   //-------------ADD CODE BELOW THIS LINE--------------//
   //---------------------------------------------------//
 
-  engagePartyMode.onclick = async function() {
+  GoToSeeWave.onclick = async function() {
     let tokenBalance = await contract.balanceOf(signerAddress);
     console.log(+tokenBalance);
     tokenBalance = +tokenBalance;
@@ -97,7 +97,7 @@ if(CONNECT_AUTOMATICALLY) {
     } else {
       initContainer.style.display = "none";
       VIP.textContent = "Ticket: " + signerAddress;
-      partymode.style.display = "block";
+      WindWaveDetailPage.style.display = "block";
       sound.play();
     }
   }
