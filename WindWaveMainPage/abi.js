@@ -1,4 +1,4 @@
-var contractAddress = "0x5476BA0Ab1eEa381D3c67e27F8D81bDde122a6eB";
+var contractAddress = "";
 
 var contractABI = [
 	{
@@ -151,6 +151,19 @@ var contractABI = [
 				"internalType": "address",
 				"name": "",
 				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getTotalSupply",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
 			}
 		],
 		"stateMutability": "view",
