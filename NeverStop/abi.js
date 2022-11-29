@@ -1,4 +1,4 @@
-var contractAddress = "0xDF469e8b631B8504859B99675C5d68C95D1D4eDd";
+var contractAddress = "0xf620A80966557722c38694D1432D7dC7870331BA";
 
 var contractABI = [
 	{
