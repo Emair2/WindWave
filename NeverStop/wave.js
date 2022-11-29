@@ -297,84 +297,84 @@ A10.onclick=clickeA10
       function clickeC1(){
         mint();
         document.getElementById("C01").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         C01.disabled=true;
         C01.style.backgroundColor = "red"}
     
       function clickeC2(){
         mint();
         document.getElementById("C02").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         C02.disabled=true;
         C02.style.backgroundColor = "red"}
        
       function clickeC3(){
         mint();
         document.getElementById("C03").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         C03.disabled=true;
         C03.style.backgroundColor = "red"}
       
       function clickeC4(){
         mint();
         document.getElementById("C04").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         C04.disabled=true;
         C04.style.backgroundColor = "red"}
       
       function clickeC5(){
         mint();
         document.getElementById("C05").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         C05.disabled=true;
         C05.style.backgroundColor = "red"}
         
       function clickeC6(){
         mint();
         document.getElementById("C06").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         C06.disabled=true;
         C06.style.backgroundColor = "red"}
         
       function clickeC7(){
         mint();
         document.getElementById("C07").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         C07.disabled=true;
         C07.style.backgroundColor = "red"}
         
       function clickeC8(){
         mint();
         document.getElementById("C08").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         C08.disabled=true;
         C08.style.backgroundColor = "red"}
         
       function clickeC9(){
         mint();
         document.getElementById("C09").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         C09.disabled=true;
         C09.style.backgroundColor = "red"}
         
       function clickeC10(){
         mint();
         document.getElementById("C10").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         C10.disabled=true;
         C10.style.backgroundColor = "red"}
 
       function clickeC11(){
         mint();
         document.getElementById("C11").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         C11.disabled=true;
         C11.style.backgroundColor = "red"}
 
       function clickeC12(){
         mint();
         document.getElementById("C12").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         C12.disabled=true;
         C12.style.backgroundColor = "red"}
       
@@ -396,91 +396,91 @@ A10.onclick=clickeA10
       function clickeD1(){
         mint();
         document.getElementById("D01").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         D01.disabled=true;
         D01.style.backgroundColor = "red"}
     
       function clickeD2(){
         mint();
         document.getElementById("D02").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         D02.disabled=true;
         D02.style.backgroundColor = "red"}
        
       function clickeD3(){
         mint();
         document.getElementById("D03").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wavee","","width=1000,height=500");
         D03.disabled=true;
         D03.style.backgroundColor = "red"}
       
       function clickeD4(){
         mint();
         document.getElementById("D04").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         D04.disabled=true;
         D04.style.backgroundColor = "red"}
       
       function clickeD5(){
         mint();
         document.getElementById("D05").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         D05.disabled=true;
         D05.style.backgroundColor = "red"}
         
       function clickeD6(){
         mint();
         document.getElementById("D06").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         D06.disabled=true;
         D06.style.backgroundColor = "red"}
         
       function clickeD7(){
         mint();
         document.getElementById("D07").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         D07.disabled=true;
         D07.style.backgroundColor = "red"}
         
       function clickeD8(){
         mint();
         document.getElementById("D08").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         D08.disabled=true;
         D08.style.backgroundColor = "red"}
         
       function clickeD9(){
         mint();
         document.getElementById("D09").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         D09.disabled=true;
         D09.style.backgroundColor = "red"}
         
       function clickeD10(){
         mint();
         document.getElementById("D10").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         D10.disabled=true;
         D10.style.backgroundColor = "red"}
 
       function clickeD11(){
         mint();
         document.getElementById("D11").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         D11.disabled=true;
         D11.style.backgroundColor = "red"}
 
       function clickeD12(){
         mint();
         document.getElementById("D12").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         D12.disabled=true;
         D12.style.backgroundColor = "red"}
 
       function clickeD13(){
         mint();
         document.getElementById("D13").innerHTML="👎";
-        window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+        window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
         D13.disabled=true;
         D13.style.backgroundColor = "red"}
 
@@ -733,56 +733,56 @@ A10.onclick=clickeA10
    function clickeG5(){
      mint();
      document.getElementById("G05").innerHTML="👎";
-     window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+     window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
      G05.disabled=true;
      G05.style.backgroundColor = "red"}
      
    function clickeG6(){
      mint();
      document.getElementById("G06").innerHTML="👎";
-     window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+     window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
      G06.disabled=true;
      G06.style.backgroundColor = "red"}
      
    function clickeG7(){
      mint();
      document.getElementById("G07").innerHTML="👎";
-     window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+     window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
      G07.disabled=true;
      G07.style.backgroundColor = "red"}
      
    function clickeG8(){
      mint();
      document.getElementById("G08").innerHTML="👎";
-     window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+     window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
      G08.disabled=true;
      G08.style.backgroundColor = "red"}
      
    function clickeG9(){
      mint();
      document.getElementById("G09").innerHTML="👎";
-     window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+     window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
      G09.disabled=true;
      G09.style.backgroundColor = "red"}
      
    function clickeG10(){
      mint();
      document.getElementById("G10").innerHTML="👎";
-     window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+     window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
      G10.disabled=true;
      G10.style.backgroundColor = "red"}
 
    function clickeG11(){
      mint();E
      document.getElementById("G11").innerHTML="👎";
-     window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+     window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
      G11.disabled=true;
      G11.style.backgroundColor = "red"}
 
    function clickeG12(){
      mint();
      document.getElementById("G12").innerHTML="👎";
-     window.open("https://emair2.github.io/WindWave/NeverStop/wavehttps://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+     window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
      G12.disabled=true;
      G12.style.backgroundColor = "red"}
 
