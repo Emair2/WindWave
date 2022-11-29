@@ -7,6 +7,7 @@
     <script src="lib/ethers-5.6.umd.min.js"></script>
     <script src="abi.js" defer></script>
     <script src="wave.js" defer></script>
+    <script src="sketch.js" defer></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
@@ -20,57 +21,187 @@
 
 <body>
 
-    <div id="WindWavePage">
+    <div id="WindWavePage" class="indextext">
         <h1>Wind Wave</h1>
         <p>Unlock occupy functionality if you possess a <strong>Wind Ticket</strong> NFT.</p>
         <hr>
         <p>Please sit and watch</p>
+        <video src="CITY.mp4" width="80%" controls></video>
         <!-- <video src="CITY.mp4" width="60%" controls>
         </video> -->
+        <br> <br> <br> <br>
         <hr>
-        <div class="button-container">
-          <button id="connectButton">Watch Video</button>
+        
+        <div>
+          <p>If you possess a <strong>Wind Ticket NFT</strong>, please <button id="connectButton">Connect</button> your <strong>Meta Mask</strong> account first.
           <span id="loadingIconConnect" class="loading-icon"></span>
-        </div>
-        <p><strong>Occupy a position</strong></p>
         <p>
           <strong>Connection Status:</strong> <span id="connectionStatus">🔴 Not connected</span>
         </p>
         <p>
           <strong>Connected Wallet:</strong> <span id="connectedWallet">[No wallet connected]</span>
         </p>
-
-    
+       </div>
+       <br><br>
         <script language="javascript"></script>
+        <p><strong>Then you can <strong>occupy a position</strong></p>
+        <br>
 
-            <p>A
-                <button id="A01" onclick="clickeA1()" value="who" style="background-color:rgb(0, 0, 0)">	👍 </button>
-                <button id="A02" onclick="clickeA2()" value="who" style="background-color:rgb(0, 0, 0)">👍</button>
-                <button id="A03" onclick="clickeA3()" value="who" style="background-color:rgb(0, 0, 0)">👍</button>
-                <button id="A04" onclick="clickeA4()" value="who" style="background-color:rgb(0, 0, 0)">👍</button>
-                <button id="A05" onclick="clickeA5()" value="who" style="background-color:rgb(0, 0, 0)">👍</button>
-                <button id="A06" onclick="clickeA6()" value="who" style="background-color:rgb(0, 0, 0)">👍</button>
-                <button id="A07" onclick="clickeA7()" value="who" style="background-color:rgb(0, 0, 0)">👍</button>
-                <button id="A08" onclick="clickeA8()" value="who" style="background-color:rgb(0, 0, 0)">👍</button>
-                <button id="A09" onclick="clickeA9()" value="who" style="background-color:rgb(0, 0, 0)">👍</button>
-                <button id="A10" onclick="clickeA10()" value="who" style="background-color:rgb(0, 0, 0)">👍</button>
+        <p>A
+          <button id="A01" onclick="clickeA1()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px" >👍</button> &nbsp
+          <button id="A02" onclick="clickeA2()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>   &nbsp
+          <button id="A03" onclick="clickeA3()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="A04" onclick="clickeA4()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="A05" onclick="clickeA5()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="A06" onclick="clickeA6()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="A07" onclick="clickeA7()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="A08" onclick="clickeA8()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="A09" onclick="clickeA9()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="A10" onclick="clickeA10()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
         A</p>
-            
-        
 
-        </div>
-        <br><br><br><br>
-        <div id="WindWaveDetailPage"></div>
-        
-        <a href="http://127.0.0.1:5501/WindWaveMainPage/wave.html"><button>Let's see the wave 🌊.</button></a>
+        <p>B
+          <button id="B01" onclick="clickeB1()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px" >👍</button>  &nbsp
+          <button id="B02" onclick="clickeB2()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="B03" onclick="clickeB3()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="B04" onclick="clickeB4()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="B05" onclick="clickeB5()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="B06" onclick="clickeB6()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="B07" onclick="clickeB7()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="B08" onclick="clickeB8()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="B09" onclick="clickeB9()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="B10" onclick="clickeB10()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="B11" onclick="clickeB11()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="B12" onclick="clickeB12()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+          <button id="B13" onclick="clickeB13()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+      B</p>
+         <p>C
+           <button id="C01" onclick="clickeC1()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px" >👍</button> &nbsp
+           <button id="C02" onclick="clickeC2()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+           <button id="C03" onclick="clickeC3()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+           <button id="C04" onclick="clickeC4()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+           <button id="C05" onclick="clickeC5()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+           <button id="C06" onclick="clickeC6()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+           <button id="C07" onclick="clickeC7()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+           <button id="C08" onclick="clickeC8()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+           <button id="C09" onclick="clickeC9()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+           <button id="C10" onclick="clickeC10()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+           <button id="C11" onclick="clickeC11()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+           <button id="C12" onclick="clickeC12()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+           
+       C</p>
+       
+       <p>D
+        <button id="D01" onclick="clickeD1()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px" >👍</button>  &nbsp
+        <button id="D02" onclick="clickeD2()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="D03" onclick="clickeD3()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="D04" onclick="clickeD4()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="D05" onclick="clickeD5()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="D06" onclick="clickeD6()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="D07" onclick="clickeD7()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="D08" onclick="clickeD8()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="D09" onclick="clickeD9()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="D10" onclick="clickeD10()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="D11" onclick="clickeD11()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="D12" onclick="clickeD12()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="D13" onclick="clickeD13()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+      D</p>
 
+       <p>E
+         <button id="E01" onclick="clickeE1()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px" >👍</button>  &nbsp
+         <button id="E02" onclick="clickeE2()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="E03" onclick="clickeE3()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="E04" onclick="clickeE4()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="E05" onclick="clickeE5()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="E06" onclick="clickeE6()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="E07" onclick="clickeE7()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="E08" onclick="clickeE8()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="E09" onclick="clickeE9()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="E10" onclick="clickeE10()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="E11" onclick="clickeE11()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="E12" onclick="clickeE12()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+       E</p>
+       
+       <p>F
+         <button id="F01" onclick="clickeF1()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px" >👍</button> &nbsp
+         <button id="F02" onclick="clickeF2()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+         <button id="F03" onclick="clickeF3()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+         <button id="F04" onclick="clickeF4()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+         <button id="F05" onclick="clickeF5()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+         <button id="F06" onclick="clickeF6()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+         <button id="F07" onclick="clickeF7()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+         <button id="F08" onclick="clickeF8()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+         <button id="F09" onclick="clickeF9()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+         <button id="F10" onclick="clickeF10()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+         <button id="F11" onclick="clickeF11()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+         <button id="F12" onclick="clickeF12()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+         <button id="F13" onclick="clickeF13()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button> &nbsp
+       F</p>
+       
+       <p>G
+         <button id="G01" onclick="clickeG1()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px" >👍</button>  &nbsp
+         <button id="G02" onclick="clickeG2()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="G03" onclick="clickeG3()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="G04" onclick="clickeG4()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="G05" onclick="clickeG5()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="G06" onclick="clickeG6()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="G07" onclick="clickeG7()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="G08" onclick="clickeG8()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="G09" onclick="clickeG9()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="G10" onclick="clickeG10()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="G11" onclick="clickeG11()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+         <button id="G12" onclick="clickeG12()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+       G</p>
+      </div>
+
+       <div style="padding-left:200px">
+       <p>H
+        <button id="H01" onclick="clickeH1()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px" >👍</button>  &nbsp
+        <button id="H02" onclick="clickeH2()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="H03" onclick="clickeH3()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="H04" onclick="clickeH4()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="H05" onclick="clickeH5()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="H06" onclick="clickeH6()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <button id="H07" onclick="clickeH7()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="H08" onclick="clickeH8()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="H09" onclick="clickeH9()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="H10" onclick="clickeH10()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="H11" onclick="clickeH11()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        <button id="H12" onclick="clickeH12()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+        H</p>
+    </div>
+
+    <div style="padding-left:400px">
+      <p>I
+       <button id="I01" onclick="clickeI1()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px" >👍</button>  &nbsp
+       <button id="I02" onclick="clickeI2()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+       <button id="I03" onclick="clickeI3()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       <button id="I04" onclick="clickeI4()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+       <button id="I05" onclick="clickeI5()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp
+       <button id="I06" onclick="clickeI6()" value="who" style="background-color:rgb(0, 0, 0); width:60px; height:30px">👍</button>  &nbsp       
+       I</p>
+   </div>
+   <div>
+    <img src="exit.png" width="5%" controls style="padding-left:20px; padding-top:30px;" </img>
+  </div>
+  
+        <br>
+        <div id="WindWaveDetailPage"class="indextext"></div>
+
+        <div class="indextext">
+        
         <div id="sorry">Sorry, No wind, no waves.</div>
-        <br><br><br><br>
+        <br><br><br>
         
-        <p>Tickets already sale: <span id="balanceDisplay"></span></p>
-        <p>Total number of tickets in existence: <span id="totalSupplyDisplay"></span></p>
-            
-            
+        <p>Tickets already sold: <span id="balanceDisplay"></span></p>
+        <p>Total number of tickets: 103 <span id="totalSupplyDisplay"></span></p>
+        <br><br>
+        <a href="http://127.0.0.1:5501/WindWaveMainPage/wave.html"><button>❓ Where do the waves come from?</button></a>
+      </div>
+
+      
 
 </body>
 </html>

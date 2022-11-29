@@ -2,6 +2,7 @@
   true: automatically connect to Web3 Provider on page load.
   false: enable "click to connect" button
 */
+
 const CONNECT_AUTOMATICALLY = true;
 
 if(CONNECT_AUTOMATICALLY) {
@@ -88,6 +89,7 @@ if(CONNECT_AUTOMATICALLY) {
   //-------------ADD CODE BELOW THIS LINE--------------//
   //---------------------------------------------------//
 
+  
   // mint function
 
 A01.onclick=clickeA1
@@ -171,6 +173,209 @@ A10.onclick=clickeA10
     A10.disabled=true;
     A10.style.backgroundColor = "red"}
 
+    //B
+    B01.onclick=clickeB1
+    B02.onclick=clickeB2
+    B03.onclick=clickeB3
+    B04.onclick=clickeB4
+    B05.onclick=clickeB5
+    B06.onclick=clickeB6
+    B07.onclick=clickeB7
+    B08.onclick=clickeB8
+    B09.onclick=clickeB9
+    B10.onclick=clickeB10
+    B11.onclick=clickeB11
+    B12.onclick=clickeB12
+    B13.onclick=clickeB13
+
+      function clickeB1(){
+        mint();
+        document.getElementById("B01").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        B01.disabled=true;
+        B01.style.backgroundColor = "red"}
+    
+      function clickeB2(){
+        mint();
+        document.getElementById("B02").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        B02.disabled=true;
+        B02.style.backgroundColor = "red"}
+       
+      function clickeB3(){
+        mint();
+        document.getElementById("B03").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        B03.disabled=true;
+        B03.style.backgroundColor = "red"}
+      
+      function clickeB4(){
+        mint();
+        document.getElementById("B04").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        B04.disabled=true;
+        B04.style.backgroundColor = "red"}
+      
+      function clickeB5(){
+        mint();
+        document.getElementById("B05").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        B05.disabled=true;
+        B05.style.backgroundColor = "red"}
+        
+      function clickeB6(){
+        mint();
+        document.getElementById("B06").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        B06.disabled=true;
+        B06.style.backgroundColor = "red"}
+        
+      function clickeB7(){
+        mint();
+        document.getElementById("B07").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        B07.disabled=true;
+        B07.style.backgroundColor = "red"}
+        
+      function clickeB8(){
+        mint();
+        document.getElementById("B08").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        B08.disabled=true;
+        B08.style.backgroundColor = "red"}
+        
+      function clickeB9(){
+        mint();
+        document.getElementById("B09").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        B09.disabled=true;
+        B09.style.backgroundColor = "red"}
+        
+      function clickeB10(){
+        mint();
+        document.getElementById("B10").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        B10.disabled=true;
+        B10.style.backgroundColor = "red"}
+
+      function clickeB11(){
+        mint();
+        document.getElementById("B11").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        B11.style.backgroundColor = "red"}
+        B11.disabled=true;
+      function clickeB12(){
+        mint();
+        document.getElementById("B12").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        B12.disabled=true;
+        B12.style.backgroundColor = "red"}
+      function clickeB13(){
+        mint();
+        document.getElementById("B13").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        B13.disabled=true;
+        B13.style.backgroundColor = "red"}
+
+        //C
+    C01.onclick=clickeC1
+    C02.onclick=clickeC2
+    C03.onclick=clickeC3
+    C04.onclick=clickeC4
+    C05.onclick=clickeC5
+    C06.onclick=clickeC6
+    C07.onclick=clickeC7
+    C08.onclick=clickeC8
+    C09.onclick=clickeC9
+    C10.onclick=clickeC10
+    C11.onclick=clickeC11
+    C12.onclick=clickeC12
+   
+      function clickeC1(){
+        mint();
+        document.getElementById("C01").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        C01.disabled=true;
+        C01.style.backgroundColor = "red"}
+    
+      function clickeC2(){
+        mint();
+        document.getElementById("C02").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        C02.disabled=true;
+        C02.style.backgroundColor = "red"}
+       
+      function clickeC3(){
+        mint();
+        document.getElementById("C03").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        C03.disabled=true;
+        C03.style.backgroundColor = "red"}
+      
+      function clickeC4(){
+        mint();
+        document.getElementById("C04").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        C04.disabled=true;
+        C04.style.backgroundColor = "red"}
+      
+      function clickeC5(){
+        mint();
+        document.getElementById("C05").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        C05.disabled=true;
+        C05.style.backgroundColor = "red"}
+        
+      function clickeC6(){
+        mint();
+        document.getElementById("C06").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        C06.disabled=true;
+        C06.style.backgroundColor = "red"}
+        
+      function clickeC7(){
+        mint();
+        document.getElementById("C07").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        C07.disabled=true;
+        C07.style.backgroundColor = "red"}
+        
+      function clickeC8(){
+        mint();
+        document.getElementById("C08").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        C08.disabled=true;
+        C08.style.backgroundColor = "red"}
+        
+      function clickeC9(){
+        mint();
+        document.getElementById("C09").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        C09.disabled=true;
+        C09.style.backgroundColor = "red"}
+        
+      function clickeC10(){
+        mint();
+        document.getElementById("C10").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        C10.disabled=true;
+        C10.style.backgroundColor = "red"}
+
+      function clickeC11(){
+        mint();
+        document.getElementById("C11").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        C11.style.backgroundColor = "red"}
+        C11.disabled=true;
+
+      function clickeC12(){
+        mint();
+        document.getElementById("C12").innerHTML="👎";
+        window.open("http://127.0.0.1:5501/WindWaveMainPage/wave.html","","width=1000,height=500");
+        C12.disabled=true;
+        C12.style.backgroundColor = "red"}
+      
+
   function mint() {
     contractWithSigner.safeMint(signerAddress);
   }
@@ -190,9 +395,6 @@ A10.onclick=clickeA10
     const totalSupply = await contract.totalSupply();
     totalSupplyDisplay.textContent = "" + totalSupply;
   }
-
-
-
 
   // GoToSeeWave.onclick = async function() {
   //   let tokenBalance = await contract.balanceOf(signerAddress);

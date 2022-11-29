@@ -5,27 +5,21 @@ let buttonState = false;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  button = createButton("click here see what happen");
-  button.position(300, 200);
+  button = createButton("🌊 Let's see the waves 🌊");
+  button.position(630, 1520);
   button.mousePressed(turnon);
   button.mouseReleased(turnoff);
 
   serial = new p5.SerialPort();
-
   serial.list();
-  serial.open("/dev/tty.usbmodem141301"); //check port number
-
+  serial.open("/dev/tty.usbmodem1434101"); //check port number
   serial.on("connected", serverConnected);
-
   serial.on("list", gotList);
-
   serial.on("data", gotData);
-
   serial.on("error", gotError);
-
   serial.on("open", gotOpen);
-
   serial.on("close", gotClose);
+
 }
 
 function serverConnected() {

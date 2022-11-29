@@ -16,6 +16,9 @@ p {
   min-width: 44ch;
 }
 
+.indextext{
+  text-align: center;
+}
 
 .button-container {
   display: flex;
