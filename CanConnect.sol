@@ -10,10 +10,6 @@ contract WINDWAVE is ERC721, ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
 
     Counters.Counter private _tokenIdCounter;
-    uint256 totalSupply;
-
-    mapping(address => string) ticketToSeat;
-    string[] public seats;
 
     constructor() ERC721("WINDWAVE", "Wind") {}
 
@@ -21,21 +17,10 @@ contract WINDWAVE is ERC721, ERC721URIStorage, Ownable {
         return "https://emair2.github.io/WindWave/Wind/Data/1.json";
     }
 
-    function safeMint(address to, string memory _seat) public {
-        _tokenIdCounter.increment();
+    function safeMint(address to) public onlyOwner {
         uint256 tokenId = _tokenIdCounter.current();
+        _tokenIdCounter.increment();
         _safeMint(to, tokenId);
-        setSeat(to, _seat);
-        seats.push(_seat);
-        totalSupply++;
-    }
-
-    function setSeat(address to, string memory _seat) public {
-        ticketToSeat[to] = _seat;
-    }
-
-    function getSeats() public view returns (string[] memory) {
-        return seats;
     }
 
     // The following functions are overrides required by Solidity.
@@ -51,9 +36,5 @@ contract WINDWAVE is ERC721, ERC721URIStorage, Ownable {
         returns (string memory)
     {
         return _baseURI();
-    }
-
-    function getTotalSupply() public view returns (uint256) {
-        return totalSupply;
     }
 }

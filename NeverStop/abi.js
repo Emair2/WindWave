@@ -1,4 +1,4 @@
-var contractAddress = "0xec002B106e808803146Ff812a8de8168f394A8B9";
+var contractAddress = "0xDF469e8b631B8504859B99675C5d68C95D1D4eDd";
 
 var contractABI = [
 	{
@@ -158,6 +158,19 @@ var contractABI = [
 	},
 	{
 		"inputs": [],
+		"name": "getSeats",
+		"outputs": [
+			{
+				"internalType": "string[]",
+				"name": "",
+				"type": "string[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
 		"name": "getTotalSupply",
 		"outputs": [
 			{
@@ -251,6 +264,11 @@ var contractABI = [
 				"internalType": "address",
 				"name": "to",
 				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "_seat",
+				"type": "string"
 			}
 		],
 		"name": "safeMint",
@@ -312,6 +330,25 @@ var contractABI = [
 	{
 		"inputs": [
 			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "seats",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
 				"internalType": "address",
 				"name": "operator",
 				"type": "address"
@@ -323,6 +360,24 @@ var contractABI = [
 			}
 		],
 		"name": "setApprovalForAll",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "to",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "_seat",
+				"type": "string"
+			}
+		],
+		"name": "setSeat",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
