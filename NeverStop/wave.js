@@ -119,11 +119,6 @@ if(CONNECT_AUTOMATICALLY) {
     window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
   })
 
-  //let mintedSeats = await contract.getSeats
-  //for (mintedSeats){
-  //  $()
-  //}
-
   function mint(_seat) {
     contractWithSigner.safeMint(signerAddress, _seat);
   }
