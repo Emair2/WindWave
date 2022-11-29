@@ -1,4 +1,4 @@
-var contractAddress = "0x8748664cF8E5D174D3cA9FFba6299fAB7200B863";
+var contractAddress = "0xec002B106e808803146Ff812a8de8168f394A8B9";
 
 var contractABI = [
 	{
@@ -325,25 +325,6 @@ var contractABI = [
 		"name": "setApprovalForAll",
 		"outputs": [],
 		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "address",
-				"name": "",
-				"type": "address"
-			}
-		],
-		"name": "status",
-		"outputs": [
-			{
-				"internalType": "bool",
-				"name": "",
-				"type": "bool"
-			}
-		],
-		"stateMutability": "view",
 		"type": "function"
 	},
 	{
