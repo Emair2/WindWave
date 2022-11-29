@@ -89,6 +89,26 @@ if(CONNECT_AUTOMATICALLY) {
   //-------------ADD CODE BELOW THIS LINE--------------//
   //---------------------------------------------------//
 
+
+  function mint() {
+    contractWithSigner.safeMint(signerAddress);
+  }
+
+  // display balance (check every 5 seconds for their balance)
+  setInterval(function() {
+    showBalance();
+    showTotalSupply();
+  }, 5000)
+
+  async function showBalance() {
+    const balance = await contract.balanceOf(signerAddress);
+    balanceDisplay.textContent = "" + balance;
+  }
+
+  async function showTotalSupply() {
+    const totalSupply = await contract.totalSupply();
+    totalSupplyDisplay.textContent = "" + totalSupply;
+  }
   
   // mint function
 
