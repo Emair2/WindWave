@@ -15,7 +15,6 @@ if(CONNECT_AUTOMATICALLY) {
 
     // INITIALIZAING STEPS
   
-    loadingIconConnect.style.display = "block";
   
     // Check website compatibility
     if(navigator.userAgent.indexOf("Safari") != -1
@@ -82,8 +81,7 @@ if(CONNECT_AUTOMATICALLY) {
   connectedWallet.textContent = signerAddress;
   console.log(`Connected Wallet: ${signerAddress}`);
 
-  // hide the loading icon
-  loadingIconConnect.style.display = "none";
+
 
   //---------------------------------------------------//
   //-------------ADD CODE BELOW THIS LINE--------------//
