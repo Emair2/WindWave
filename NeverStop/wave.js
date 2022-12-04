@@ -116,7 +116,7 @@ if(CONNECT_AUTOMATICALLY) {
 
     console.log(seat)
     mint(seat)
-    window.open("https://emair2.github.io/WindWave/NeverStop/wave","","width=1000,height=500");
+    window.open("https://www.emair-zhu.com/windwave","","width=1000,height=500");
   })
 
   function mint(_seat) {
