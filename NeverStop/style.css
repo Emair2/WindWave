@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+#layerContainer {
+  max-width: 600px;
+  width: 500px;
+  height: 500px;
+  
+  position: relative;
+  margin: 0 auto;
+}
+
 body {
   font-family: Arial, sans-serif;
 }
@@ -15,6 +24,7 @@ p {
 #recipientAddress {
   min-width: 44ch;
 }
+
 
 .indextext{
   text-align: center;
@@ -135,3 +145,4 @@ html, body {
 canvas {
   display: block;
 }
+

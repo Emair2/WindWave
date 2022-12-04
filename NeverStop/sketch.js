@@ -6,7 +6,7 @@ let buttonState = false;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   button = createButton("🌊 Let's see the waves 🌊");
-  button.position(630, 1520);
+  button.position(640, 1550);
   button.mousePressed(turnon);
   button.mouseReleased(turnoff);
 
@@ -73,7 +73,7 @@ function turnoff() {
 function turnon() {
   buttonState = true;
 
-  
+
   //contractWithSigner.mint(seat)
 
   // mint
