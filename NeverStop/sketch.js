@@ -12,7 +12,7 @@ function setup() {
 
   serial = new p5.SerialPort();
   serial.list();
-  serial.open("/dev/tty.usbmodem141301"); //check port number
+  serial.open("/dev/tty.usbmodem1434201"); //check port number
   serial.on("connected", serverConnected);
   serial.on("list", gotList);
   serial.on("data", gotData);
