@@ -4,7 +4,7 @@ let button;
 let buttonState = false;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(1000, 100);
   button = createButton("🌊 Let's see the waves 🌊");
   button.position(20, 50,'fixed');
   //button.position(640, 1550);
