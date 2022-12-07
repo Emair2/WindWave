@@ -3,7 +3,7 @@
   false: enable "click to connect" button
 */
 
-const CONNECT_AUTOMATICALLY = false;
+const CONNECT_AUTOMATICALLY = true;
 
 if(CONNECT_AUTOMATICALLY) {
     main();
