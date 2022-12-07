@@ -46,6 +46,11 @@ p {
   animation: spin 1s infinite linear;
 }
 
+iframe {
+  width: 100%;
+  max-width: 960px;
+}
+
 @keyframes spin {
   to {transform: rotate(360deg);}
 }
@@ -97,6 +102,16 @@ audio {
                6px 6px rgb(255, 255, 254),
                8px 8px rgb(2, 95, 225),
                10px 10px blue;
+}
+
+.seats-container {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.seats {
+  width: max-content;
+  margin: 0 auto;
 }
 
 #WindWaveDetailPage h2 {
